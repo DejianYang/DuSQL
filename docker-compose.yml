@@ -1,0 +1,16 @@
+version: "2.3"
+services:
+  paddle_dusql:
+   # runtime: nvidia
+    build: .
+    ports:
+    - "11426:22"
+#    volumes:
+#      - nlp:/workspace
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISABLE_DEVICES=all
+#    command: /etc/init.d/ssh start
+#volumes:
+#  nlp:
+#    external: true

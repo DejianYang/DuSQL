@@ -1,0 +1,10 @@
+# 数据集
+data/data_v1.0.0
+DuSQL/
+ernie1.0/
+*.filter
+*.swo
+
+output/
+__pycache__/
+tools/evaluation/data/
